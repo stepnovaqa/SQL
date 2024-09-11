@@ -1,0 +1,6 @@
+#1 Выведите имя, фамилию, патронуса всех персонажей, у которых есть patronus и он известен
+
+SELECT fname, lname, patronus
+FROM hogwarts.characters
+WHERE NOT patronus = "Unknown";
+
